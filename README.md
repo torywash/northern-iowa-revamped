@@ -50,12 +50,14 @@ Then open [http://localhost:3000](http://localhost:3000).
 
 ### Common scripts
 
-| Command         | Description                       |
-| --------------- | -------------------------------- |
-| `npm run dev`   | Start the local dev server       |
-| `npm run build` | Production build                 |
-| `npm start`     | Serve the production build       |
-| `npm run lint`  | Run ESLint                       |
+| Command             | Description                       |
+| ------------------- | --------------------------------- |
+| `npm run dev`       | Start the local dev server        |
+| `npm run build`     | Production build                  |
+| `npm start`         | Serve the production build        |
+| `npm run lint`      | Run ESLint                        |
+| `npm run typecheck` | Type-check with `tsc` (no emit)   |
+| `npm run format`    | Format the codebase with Prettier |
 
 ## Contributing
 
